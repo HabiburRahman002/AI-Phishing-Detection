@@ -1,0 +1,103 @@
+
+AI-BASED PHISHING DETECTION — FINAL EXPERIMENT SUMMARY
+======================================================
+
+DATASETS
+--------
+Traditional Training: 57,541
+Traditional Validation: 10,033
+Traditional Test: 10,279
+English E-PhishLLM: 11,502
+
+Label convention:
+0 = Legitimate
+1 = Phishing
+
+SVM CONFIGURATION
+-----------------
+Model: TF-IDF + LinearSVC
+TF-IDF max features: 50,000
+N-gram range: (1, 2)
+Lowercase: True
+Sublinear TF: True
+LinearSVC C: 1.0
+Random seed: 42
+
+SVM — TRADITIONAL TEST
+----------------------
+Accuracy: 0.9912
+Phishing Precision: 0.9893
+Phishing Recall: 0.9932
+Phishing F1: 0.9913
+Confusion Matrix:
+[[5088, 55],
+ [35, 5101]]
+
+SVM — ENGLISH E-PHISHLLM
+------------------------
+Accuracy: 0.7392
+Phishing Precision: 0.8082
+Phishing Recall: 0.6551
+Phishing F1: 0.7237
+Confusion Matrix:
+[[4574, 932],
+ [2068, 3928]]
+
+DISTILBERT CONFIGURATION
+------------------------
+Model: distilbert-base-uncased
+Max sequence length: 256
+Epochs: 3
+Learning rate: 2e-5
+Training batch size: 16
+Evaluation batch size: 32
+Weight decay: 0.01
+Optimizer: AdamW
+FP16: True
+Random seed: 42
+GPU: Tesla T4
+Training time: 19.36 minutes
+
+DISTILBERT — TRADITIONAL TEST
+-----------------------------
+Accuracy: 0.9937
+Phishing Precision: 0.9953
+Phishing Recall: 0.9920
+Phishing F1: 0.9937
+Confusion Matrix:
+[[5119, 24],
+ [41, 5095]]
+
+DISTILBERT — ENGLISH E-PHISHLLM
+-------------------------------
+Accuracy: 0.6437
+Phishing Precision: 0.7828
+Phishing Recall: 0.4381
+Phishing F1: 0.5618
+Confusion Matrix:
+[[4777, 729],
+ [3369, 2627]]
+
+GENERALIZATION GAP
+------------------
+SVM:
+Accuracy drop: 25.20 percentage points
+Precision drop: 18.11 percentage points
+Recall drop: 33.81 percentage points
+F1 drop: 26.76 percentage points
+
+DistilBERT:
+Accuracy drop: 35.00 percentage points
+Precision drop: 21.25 percentage points
+Recall drop: 55.39 percentage points
+F1 drop: 43.19 percentage points
+
+ERROR ANALYSIS
+--------------
+SVM E-PhishLLM:
+False positives: 932
+False negatives: 2068
+
+DistilBERT E-PhishLLM:
+False positives: 729
+False negatives: 3369
