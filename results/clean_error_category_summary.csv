@@ -1,0 +1,15 @@
+Error Type,Category,Count,Percent of Errors
+False Positive,Credential Request,6,1.59
+False Positive,Secure Link / URL,98,25.93
+False Positive,Attachment,22,5.82
+False Positive,Collaboration Request,227,60.05
+False Positive,Software Update,3,0.79
+False Positive,Urgency,19,5.03
+False Positive,Impersonation,170,44.97
+False Negative,Credential Request,875,24.75
+False Negative,Secure Link / URL,1740,49.21
+False Negative,Attachment,1571,44.43
+False Negative,Collaboration Request,1999,56.53
+False Negative,Software Update,532,15.05
+False Negative,Urgency,1615,45.67
+False Negative,Impersonation,1527,43.18

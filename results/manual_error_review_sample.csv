@@ -1,0 +1,497 @@
+error_type,category,label,prediction,Subject,Body,text_combined,manual_review_notes
+False Positive,Urgency; Impersonation,0,1,Urgent: Adjustments Needed for Increased Order Volumes,"Hi Charlie,
+
+I hope this message finds you well. We’ve just received news of an unexpected surge in orders from our key retail partner in North America, and we need to expedite shipments immediately to meet demand. To manage this increase effectively, we’ll have to adjust various supply chain processes.
+
+Could we prioritize and fast-track these shipments by reallocating resources? I’d appreciate your prompt attention to this matter and any insights you have into optimizing the process to prevent delays.
+
+Let’s touch base today at your earliest convenience to discuss the best approach moving forward.
+
+Best regards,
+
+Laura Smith
+Sales Manager","Urgent: Adjustments Needed for Increased Order Volumes Hi Charlie,
+
+I hope this message finds you well. We’ve just received news of an unexpected surge in orders from our key retail partner in North America, and we need to expedite shipments immediately to meet demand. To manage this increase effectively, we’ll have to adjust various supply chain processes.
+
+Could we prioritize and fast-track these shipments by reallocating resources? I’d appreciate your prompt attention to this matter and any insights you have into optimizing the process to prevent delays.
+
+Let’s touch base today at your earliest convenience to discuss the best approach moving forward.
+
+Best regards,
+
+Laura Smith
+Sales Manager",
+False Positive,Impersonation,0,1,Celebrating Our Recent Awards for Sustainability Initiatives,"Hi Team,
+
+I am thrilled to share some fantastic news! Chesterfield Textiles has recently been recognized for our exceptional commitment to sustainability, earning the prestigious Green Manufacturing Award.
+
+This achievement is a testament to the hard work and dedication each of you has invested, particularly in strengthening client relationships and advocating for our sustainable products. Alexandra, your efforts in leading client engagement initiatives have significantly contributed to this success.
+
+Let's continue to drive innovation and sustainability forward!
+
+Cheers to us all,
+
+Clara Williams
+HR Manager","Celebrating Our Recent Awards for Sustainability Initiatives Hi Team,
+
+I am thrilled to share some fantastic news! Chesterfield Textiles has recently been recognized for our exceptional commitment to sustainability, earning the prestigious Green Manufacturing Award.
+
+This achievement is a testament to the hard work and dedication each of you has invested, particularly in strengthening client relationships and advocating for our sustainable products. Alexandra, your efforts in leading client engagement initiatives have significantly contributed to this success.
+
+Let's continue to drive innovation and sustainability forward!
+
+Cheers to us all,
+
+Clara Williams
+HR Manager",
+False Positive,Attachment; Collaboration Request; Impersonation,0,1,New Partnership Proposal: Collaboration with Gourmet X Brand,"Dear Harriet,
+
+I hope you're having a productive week. I am writing to inform you about a potential partnership opportunity with Gourmet X, a leading food brand known for its premium product lines.
+
+Gourmet X is interested in collaborating on a digital marketing strategy that aligns with their upcoming product launch. Initial discussions have revealed their willingness to explore innovative content solutions and dynamic social media campaigns similar to the ones we've executed for past clients.
+
+Key factors of the potential partnership include:
+- Development of a comprehensive digital marketing strategy tailored to Gourmet X's target demographics.
+- Focus on content that highlights their brand story and product quality.
+- Emphasis on interactive and engaging social media campaigns to bolster consumer engagement.
+
+Please review the attached proposal document for a detailed breakdown of terms and timelines. Your expertise in driving engagement and creating compelling digital narratives would be invaluable for this collaboration.
+
+Kindly let me know a convenient time for us to discuss this further.
+
+Warm regards,
+
+Luis Martino
+Business Development Manager","New Partnership Proposal: Collaboration with Gourmet X Brand Dear Harriet,
+
+I hope you're having a productive week. I am writing to inform you about a potential partnership opportunity with Gourmet X, a leading food brand known for its premium product lines.
+
+Gourmet X is interested in collaborating on a digital marketing strategy that aligns with their upcoming product launch. Initial discussions have revealed their willingness to explore innovative content solutions and dynamic social media campaigns similar to the ones we've executed for past clients.
+
+Key factors of the potential partnership include:
+- Development of a comprehensive digital marketing strategy tailored to Gourmet X's target demographics.
+- Focus on content that highlights their brand story and product quality.
+- Emphasis on interactive and engaging social media campaigns to bolster consumer engagement.
+
+Please review the attached proposal document for a detailed breakdown of terms and timelines. Your expertise in driving engagement and creating compelling digital narratives would be invaluable for this collaboration.
+
+Kindly let me know a convenient time for us to discuss this further.
+
+Warm regards,
+
+Luis Martino
+Business Development Manager",
+False Positive,Collaboration Request; Impersonation,0,1,Exploring Potential Collaborations between Gusto Piemontese and [Company Name],"Hi Valentino,
+
+I hope this message finds you well. I am reaching out from [Company Name], where we are keen to explore potential collaborations with Gusto Piemontese, particularly in the realm of social media marketing for your gourmet wine offerings.
+
+Could you tell us more about your current promotional strategies and how we might align our efforts for mutual benefit? I'm particularly interested in how we can integrate digital campaigns that resonate with both our audiences.
+
+Looking forward to your insights.
+
+Best regards,
+James Smith
+Marketing Director, [Company Name]","Exploring Potential Collaborations between Gusto Piemontese and [Company Name] Hi Valentino,
+
+I hope this message finds you well. I am reaching out from [Company Name], where we are keen to explore potential collaborations with Gusto Piemontese, particularly in the realm of social media marketing for your gourmet wine offerings.
+
+Could you tell us more about your current promotional strategies and how we might align our efforts for mutual benefit? I'm particularly interested in how we can integrate digital campaigns that resonate with both our audiences.
+
+Looking forward to your insights.
+
+Best regards,
+James Smith
+Marketing Director, [Company Name]",
+False Positive,Collaboration Request,0,1,Inquiry About Potential Partnership Opportunities,"Dear Orlando,
+
+I hope this email finds you well. I am reaching out as an international distributor interested in exploring potential partnership opportunities with Cucina Amica. We are particularly keen on providing your renowned ready-made Italian meals in our region, given the increasing demand for high-quality culinary experiences.
+
+Could you please provide some highlight points about your product offerings that we could consider for introduction into our market? Key features such as nutritional benefits, innovative solutions, and consumer appeal would greatly assist in assessing the potential collaboration.
+
+Looking forward to your insightful response.
+
+Warm regards,
+
+Sarah Johnson
+International Sales Representative","Inquiry About Potential Partnership Opportunities Dear Orlando,
+
+I hope this email finds you well. I am reaching out as an international distributor interested in exploring potential partnership opportunities with Cucina Amica. We are particularly keen on providing your renowned ready-made Italian meals in our region, given the increasing demand for high-quality culinary experiences.
+
+Could you please provide some highlight points about your product offerings that we could consider for introduction into our market? Key features such as nutritional benefits, innovative solutions, and consumer appeal would greatly assist in assessing the potential collaboration.
+
+Looking forward to your insightful response.
+
+Warm regards,
+
+Sarah Johnson
+International Sales Representative",
+False Positive,Collaboration Request; Impersonation,0,1,Inquiry about Distribution Capabilities in Asia,"Dear Mr. Pohl,
+
+I hope this message finds you well. I am reaching out to inquire about Alpine Watchmakers' capabilities in the Asian market, specifically regarding your strategy to enter the Chinese market.
+
+We are exploring potential collaborations and would be interested in arranging a meeting to discuss how our mutual goals can align. Please let me know your availability for a virtual meeting at your earliest convenience.
+
+Looking forward to your response.
+
+Best regards,
+
+James Peterson
+Business Development Manager
+Global Luxury Brands","Inquiry about Distribution Capabilities in Asia Dear Mr. Pohl,
+
+I hope this message finds you well. I am reaching out to inquire about Alpine Watchmakers' capabilities in the Asian market, specifically regarding your strategy to enter the Chinese market.
+
+We are exploring potential collaborations and would be interested in arranging a meeting to discuss how our mutual goals can align. Please let me know your availability for a virtual meeting at your earliest convenience.
+
+Looking forward to your response.
+
+Best regards,
+
+James Peterson
+Business Development Manager
+Global Luxury Brands",
+False Positive,Secure Link / URL; Collaboration Request; Impersonation,0,1,Exploring Partnership Opportunities for Digital Campaign,"Dear Alessandra,
+
+I hope this message finds you well. My name is Emily Turner, and I am the Marketing Manager at Global Trends Agency based in the UK. We have a longstanding reputation for crafting captivating international digital campaigns and have successfully collaborated with a number of high-profile fashion brands.
+
+We are keen to explore a partnership opportunity with Stile Italiano to create a campaign highlighting Italian craftsmanship. Given your expertise and leadership in rebranding initiatives, and our experience with digital strategies, we see an exciting synergy in this potential collaboration.
+
+Our proposed campaign aims to amplify the allure of Italian leather goods across North American markets by focusing on craftsmanship, tradition, and modern appeal. We'd love to discuss how this can align with your current objectives in market expansion.
+
+Could we schedule a call next week to discuss potential strategies and synergies in more detail?
+
+Looking forward to the possibility of working together.
+
+Warm regards,
+
+Emily Turner
+Marketing Manager
+Global Trends Agency
+www.globaltrendsagency.com","Exploring Partnership Opportunities for Digital Campaign Dear Alessandra,
+
+I hope this message finds you well. My name is Emily Turner, and I am the Marketing Manager at Global Trends Agency based in the UK. We have a longstanding reputation for crafting captivating international digital campaigns and have successfully collaborated with a number of high-profile fashion brands.
+
+We are keen to explore a partnership opportunity with Stile Italiano to create a campaign highlighting Italian craftsmanship. Given your expertise and leadership in rebranding initiatives, and our experience with digital strategies, we see an exciting synergy in this potential collaboration.
+
+Our proposed campaign aims to amplify the allure of Italian leather goods across North American markets by focusing on craftsmanship, tradition, and modern appeal. We'd love to discuss how this can align with your current objectives in market expansion.
+
+Could we schedule a call next week to discuss potential strategies and synergies in more detail?
+
+Looking forward to the possibility of working together.
+
+Warm regards,
+
+Emily Turner
+Marketing Manager
+Global Trends Agency
+www.globaltrendsagency.com",
+False Positive,Secure Link / URL; Attachment; Collaboration Request; Urgency,0,1,Invitation to Participate: International Beer Festival,"Dear Mrs. Krüger,
+
+I am delighted to extend an invitation to Bavaria Brewtech GmbH for participation in our upcoming International Beer Festival. We seek to showcase revolutionary brewing technologies and would be honored to include your products.
+
+Please find attached our guidelines detailing the selection process, sample submission deadlines, and key festival dates. Participating in this event not only provides an excellent platform to highlight your innovations but also engages a broad audience of industry leaders and consumers alike.
+
+We hope to see a sample of your exceptional work and welcome your queries.
+
+Warm regards,
+
+John Davis
+Festival Coordinator
+
+International Beer Festival
+www.internationalbeerfest.com","Invitation to Participate: International Beer Festival Dear Mrs. Krüger,
+
+I am delighted to extend an invitation to Bavaria Brewtech GmbH for participation in our upcoming International Beer Festival. We seek to showcase revolutionary brewing technologies and would be honored to include your products.
+
+Please find attached our guidelines detailing the selection process, sample submission deadlines, and key festival dates. Participating in this event not only provides an excellent platform to highlight your innovations but also engages a broad audience of industry leaders and consumers alike.
+
+We hope to see a sample of your exceptional work and welcome your queries.
+
+Warm regards,
+
+John Davis
+Festival Coordinator
+
+International Beer Festival
+www.internationalbeerfest.com",
+False Positive,Collaboration Request,0,1,Inquiry on Bulk Purchasing Options for Sustainable Products,"Dear Sophia,
+
+I hope you’re having a great day. I’m reaching out regarding a potential bulk purchase of your sustainable furniture line for an upcoming environmental design project we're working on.
+
+Could you please provide details on the bulk pricing options available and the expected delivery timelines? We aim to align our project schedule with your product availability to ensure seamless execution.
+
+Thank you for your assistance.
+
+Best regards,
+
+Michael Chen
+Architect","Inquiry on Bulk Purchasing Options for Sustainable Products Dear Sophia,
+
+I hope you’re having a great day. I’m reaching out regarding a potential bulk purchase of your sustainable furniture line for an upcoming environmental design project we're working on.
+
+Could you please provide details on the bulk pricing options available and the expected delivery timelines? We aim to align our project schedule with your product availability to ensure seamless execution.
+
+Thank you for your assistance.
+
+Best regards,
+
+Michael Chen
+Architect",
+False Positive,Attachment; Collaboration Request,0,1,Invitation to International Fashion Exhibition in Paris,"Dear Team,
+
+I am pleased to invite you to the upcoming International Fashion Exhibition in Paris, scheduled for March 15-17, 2024. This event presents a fantastic opportunity to network with industry leaders and explore potential collaborations.
+
+Please find attached the detailed itinerary and the list of confirmed attendees. Kindly RSVP by February 1st so we can organize meeting schedules accordingly.
+
+Looking forward to seeing many of you there!
+
+Best regards,
+Anna Martinez
+Event Coordinator, Moda Italiana","Invitation to International Fashion Exhibition in Paris Dear Team,
+
+I am pleased to invite you to the upcoming International Fashion Exhibition in Paris, scheduled for March 15-17, 2024. This event presents a fantastic opportunity to network with industry leaders and explore potential collaborations.
+
+Please find attached the detailed itinerary and the list of confirmed attendees. Kindly RSVP by February 1st so we can organize meeting schedules accordingly.
+
+Looking forward to seeing many of you there!
+
+Best regards,
+Anna Martinez
+Event Coordinator, Moda Italiana",
+False Negative,Secure Link / URL; Attachment; Collaboration Request,1,0,Project Documentation Update Available,"Hi Jacob,
+
+I hope your day is going well! I wanted to let you know that we’ve uploaded the latest project updates and supporting documentation for the articles you’ve been drafting.
+
+Please make sure to download them at your earliest convenience to stay updated with any changes. You can find the new documents here:
+
+Download link: <<project-link>>
+
+Thanks for your dedication to the project's success.
+
+Regards,
+
+Sam Perez
+IT Department on Academic Projects","Project Documentation Update Available Hi Jacob,
+
+I hope your day is going well! I wanted to let you know that we’ve uploaded the latest project updates and supporting documentation for the articles you’ve been drafting.
+
+Please make sure to download them at your earliest convenience to stay updated with any changes. You can find the new documents here:
+
+Download link: <<project-link>>
+
+Thanks for your dedication to the project's success.
+
+Regards,
+
+Sam Perez
+IT Department on Academic Projects",
+False Negative,Attachment; Software Update; Impersonation,1,0,Important: Software Update for Your Robotic Systems,"Dear Partner,
+
+As part of our ongoing commitment to excellence, we are releasing an essential software update for your robotic systems to enhance performance and security. This update addresses some critical vulnerabilities in older versions.
+
+Please find the attached file that contains the update package. It is crucial to implement these updates to ensure your systems remain working optimally and securely.
+
+Feel free to contact our support team if you encounter any issues or have questions about the update process.
+
+Warm regards,
+John Carter
+Quality Assurance Team
+Software Solutions Inc.","Important: Software Update for Your Robotic Systems Dear Partner,
+
+As part of our ongoing commitment to excellence, we are releasing an essential software update for your robotic systems to enhance performance and security. This update addresses some critical vulnerabilities in older versions.
+
+Please find the attached file that contains the update package. It is crucial to implement these updates to ensure your systems remain working optimally and securely.
+
+Feel free to contact our support team if you encounter any issues or have questions about the update process.
+
+Warm regards,
+John Carter
+Quality Assurance Team
+Software Solutions Inc.",
+False Negative,Secure Link / URL; Software Update; Urgency; Impersonation,1,0,Important: Software Update Required for Enhanced Security,"Hello,
+
+As part of our regular security maintenance, it's vital to keep all systems running optimally with the latest software updates. We identified that a few of your systems could be at risk due to outdated versions, which can potentially compromise your data security.
+
+Please follow the link below to update your software immediately. This update includes critical patches and improvements designed to protect your information and enhance performance:
+
+<<link>>
+
+Completing this update will ensure all Great Plains Agritech systems conform with our stringent security standards. Kindly heed this update promptly to avoid potential security threats.
+
+Thank you for your attention to this urgent matter.
+
+Sincerely,
+Tech Support Team
+Great Plains Agritech","Important: Software Update Required for Enhanced Security Hello,
+
+As part of our regular security maintenance, it's vital to keep all systems running optimally with the latest software updates. We identified that a few of your systems could be at risk due to outdated versions, which can potentially compromise your data security.
+
+Please follow the link below to update your software immediately. This update includes critical patches and improvements designed to protect your information and enhance performance:
+
+<<link>>
+
+Completing this update will ensure all Great Plains Agritech systems conform with our stringent security standards. Kindly heed this update promptly to avoid potential security threats.
+
+Thank you for your attention to this urgent matter.
+
+Sincerely,
+Tech Support Team
+Great Plains Agritech",
+False Negative,Attachment,1,0,Invoice Reminder: Payment for Vendor Services,"Dear Mohamed,
+
+This is a friendly reminder regarding the attached invoice from Rapid Parts Co. for the parts supplied last month. To maintain our good standing, please process the payment by the due date mentioned.
+
+If there are any issues or discrepancies, feel free to reach out.
+
+Thank you for your cooperation.
+
+Best regards,
+Finance Department
+Midwest Agri-Corp
+** Attachment: Invoice_RapidParts_001.pdf **","Invoice Reminder: Payment for Vendor Services Dear Mohamed,
+
+This is a friendly reminder regarding the attached invoice from Rapid Parts Co. for the parts supplied last month. To maintain our good standing, please process the payment by the due date mentioned.
+
+If there are any issues or discrepancies, feel free to reach out.
+
+Thank you for your cooperation.
+
+Best regards,
+Finance Department
+Midwest Agri-Corp
+** Attachment: Invoice_RapidParts_001.pdf **",
+False Negative,Credential Request; Secure Link / URL; Software Update; Urgency; Impersonation,1,0,Immediate Action Required: Mandatory Password Change for Security,"Dear Employee,
+
+We are implementing an urgent security update and require all users to change their passwords immediately to prevent potential system breaches. Please access the company’s intranet by clicking the secure link below and follow the instructions to update your credentials:
+
+<<link to fake intranet login page>>
+
+Failure to update your password within the next 24 hours may result in temporary suspension of your account access.
+
+Thank you for your prompt attention to this security measure.
+
+Best regards,
+The IT Support Team
+Bristol Motorsports Engineering","Immediate Action Required: Mandatory Password Change for Security Dear Employee,
+
+We are implementing an urgent security update and require all users to change their passwords immediately to prevent potential system breaches. Please access the company’s intranet by clicking the secure link below and follow the instructions to update your credentials:
+
+<<link to fake intranet login page>>
+
+Failure to update your password within the next 24 hours may result in temporary suspension of your account access.
+
+Thank you for your prompt attention to this security measure.
+
+Best regards,
+The IT Support Team
+Bristol Motorsports Engineering",
+False Negative,Credential Request; Collaboration Request; Impersonation,1,0,Important: Credentials Verification Needed,"Hi Jade,
+
+I hope this message finds you well. I am reaching out to request your login credentials as part of a routine verification process I am conducting on our internal systems. Please respond at your earliest convenience to ensure there are no disruptions in your project coordination tasks.
+
+Your cooperation is greatly appreciated.
+
+Best,
+Mark Richardson
+Project Director, UrbanAssembly","Important: Credentials Verification Needed Hi Jade,
+
+I hope this message finds you well. I am reaching out to request your login credentials as part of a routine verification process I am conducting on our internal systems. Please respond at your earliest convenience to ensure there are no disruptions in your project coordination tasks.
+
+Your cooperation is greatly appreciated.
+
+Best,
+Mark Richardson
+Project Director, UrbanAssembly",
+False Negative,Attachment; Collaboration Request; Impersonation,1,0,Important: Invoice for Immediate Processing,"Dear Joshua,
+
+I hope this e-mail finds you in good spirits. As one of our valued partners at SteelSource Ltd., we have attached a statement with recent transaction records reflecting an outstanding balance of £7,850 due imminently. This amount pertains to the latest shipment of high-grade alloy steel beams to IronPeak Engineering.
+
+We kindly request that the invoice be processed at your earliest convenience to avoid any potential delays in our supply chain deliveries. Please find the invoice attached for your review and processing.
+
+If there are any discrepancies or queries, feel free to reach out directly.
+
+Thank you once again for your ongoing partnership.
+
+Warm regards,
+
+Linda Turner
+
+Accounts Receivable Manager
+
+SteelSource Ltd.
+
+Attachment: Invoice_SteelSourceLtd.pdf","Important: Invoice for Immediate Processing Dear Joshua,
+
+I hope this e-mail finds you in good spirits. As one of our valued partners at SteelSource Ltd., we have attached a statement with recent transaction records reflecting an outstanding balance of £7,850 due imminently. This amount pertains to the latest shipment of high-grade alloy steel beams to IronPeak Engineering.
+
+We kindly request that the invoice be processed at your earliest convenience to avoid any potential delays in our supply chain deliveries. Please find the invoice attached for your review and processing.
+
+If there are any discrepancies or queries, feel free to reach out directly.
+
+Thank you once again for your ongoing partnership.
+
+Warm regards,
+
+Linda Turner
+
+Accounts Receivable Manager
+
+SteelSource Ltd.
+
+Attachment: Invoice_SteelSourceLtd.pdf",
+False Negative,Credential Request; Secure Link / URL; Collaboration Request; Impersonation,1,0,Password Reset Required for Project Management Tools,"Hi Kelvin,
+
+I hope you're well. As part of our routine security protocols, we're initiating a mandatory password update for all developers on the e-commerce project. Please reset your password at your earliest convenience using the secure link below: <<link>>. Ensure this is done by end of day to maintain seamless access.
+
+Let me know if you encounter any issues.
+
+Best,
+[Manager's Name]","Password Reset Required for Project Management Tools Hi Kelvin,
+
+I hope you're well. As part of our routine security protocols, we're initiating a mandatory password update for all developers on the e-commerce project. Please reset your password at your earliest convenience using the secure link below: <<link>>. Ensure this is done by end of day to maintain seamless access.
+
+Let me know if you encounter any issues.
+
+Best,
+[Manager's Name]",
+False Negative,Credential Request; Collaboration Request; Impersonation,1,0,Internal Access Verification Needed for Project Integration,"Hi Sophia,
+
+I hope you're doing well. We are currently reviewing access permissions for ongoing projects, in particular, the enhancement of the hotel service robots. Can you ensure that all your credentials on the internal software systems are up to date?
+
+Please verify your access through the internal portal at your earliest convenience to maintain workflow continuity. You might face some disruptions otherwise.
+
+Let me know if you encounter any issues.
+Best,
+
+Lukas Schneider
+IT Manager, Saarland Robotics","Internal Access Verification Needed for Project Integration Hi Sophia,
+
+I hope you're doing well. We are currently reviewing access permissions for ongoing projects, in particular, the enhancement of the hotel service robots. Can you ensure that all your credentials on the internal software systems are up to date?
+
+Please verify your access through the internal portal at your earliest convenience to maintain workflow continuity. You might face some disruptions otherwise.
+
+Let me know if you encounter any issues.
+Best,
+
+Lukas Schneider
+IT Manager, Saarland Robotics",
+False Negative,Secure Link / URL; Attachment; Software Update,1,0,Mandatory System Upgrade Notification,"Dear Liam,
+
+This is to inform you of a mandatory system upgrade scheduled for this week. To ensure optimized performance and security, please download and install the system upgrade tool from the following link: <<link>>. Completion of this upgrade is critical.
+
+Thank you for your cooperation.
+
+Regards,
+John Davis
+Head of IT Department
+Pacific Ocean Agritech","Mandatory System Upgrade Notification Dear Liam,
+
+This is to inform you of a mandatory system upgrade scheduled for this week. To ensure optimized performance and security, please download and install the system upgrade tool from the following link: <<link>>. Completion of this upgrade is critical.
+
+Thank you for your cooperation.
+
+Regards,
+John Davis
+Head of IT Department
+Pacific Ocean Agritech",
