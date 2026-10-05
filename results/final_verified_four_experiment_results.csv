@@ -1,5 +1,0 @@
-Model,Test Dataset,Accuracy,Phishing Precision,Phishing Recall,Phishing F1
-TF-IDF + LinearSVC,Traditional Test,0.9912,0.9893,0.9932,0.9913
-TF-IDF + LinearSVC,English E-PhishLLM,0.7392,0.8082,0.6551,0.7237
-DistilBERT,Traditional Test,0.9937,0.9953,0.992,0.9937
-DistilBERT,English E-PhishLLM,0.6437,0.7828,0.4381,0.5618
