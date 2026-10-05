@@ -53,11 +53,41 @@ Label convention:
 E-PhishLLM was used only for external evaluation. Neither LinearSVC nor
 DistilBERT was retrained on E-PhishLLM before the reported evaluation.
 
+## 3. Cross-Dataset Overlap Check
+
+An additional leakage check was performed between the traditional dataset
+used in the experiments and the English E-PhishLLM subset.
+
+For the exact-overlap analysis:
+
+- Traditional emails checked: 77,853
+- E-PhishLLM emails checked: 11,502
+- Exact overlapping normalized emails: 0
+
+A near-duplicate analysis was also performed using TF-IDF character
+n-grams and cosine similarity.
+
+Results:
+
+- Similarity >= 0.90: 0 matches
+- Similarity >= 0.95: 0 matches
+- Similarity >= 0.99: 0 matches
+- Maximum observed similarity: approximately 0.587
+- Mean nearest similarity: approximately 0.290
+
+Under the normalization and TF-IDF character n-gram procedure used in
+this study, no exact duplicates or high-similarity near-duplicates were
+detected between the traditional dataset and E-PhishLLM.
+
 ## Data Availability
 
 The datasets are not stored directly in this repository. Please refer to
-the original dataset sources and the project notebook for data preparation
-and preprocessing steps.
+the original dataset sources and the project notebook for data preparation,
+preprocessing, leakage-control, and evaluation procedures.
+
+The repository contains the experimental code and result files necessary
+to document the reported analyses, but large datasets and trained model
+checkpoints are excluded.
 
 ### References
 
