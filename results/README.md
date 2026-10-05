@@ -1,61 +1,91 @@
 # Experimental Results
 
-This folder contains the final verified results and supporting files from the phishing detection experiments.
+This folder contains the final experimental results and supporting analyses for the AI phishing detection study.
 
-## Final Results
+The experiments compare TF-IDF + LinearSVC and DistilBERT on a traditional phishing email test set and the English subset of E-PhishLLM.
 
-`final_verified_four_experiment_results.csv`
+## Final Three-Seed Results
 
-Contains the final performance metrics for all four evaluations:
+The experiments were repeated using random seeds 42, 7, and 21.
 
-1. TF-IDF + LinearSVC on the traditional test set
-2. TF-IDF + LinearSVC on English E-PhishLLM
-3. DistilBERT on the traditional test set
-4. DistilBERT on English E-PhishLLM
+### DistilBERT
 
-The reported metrics include accuracy, phishing precision, phishing recall, and phishing F1-score.
+- `distilbert_three_seed_results.csv`  
+  Contains the individual DistilBERT results for seeds 42, 7, and 21.
 
-`final_experiment_summary.txt`
+- `distilbert_three_seed_mean_std.csv`  
+  Contains the mean and sample standard deviation for accuracy, phishing precision, phishing recall, and phishing F1.
 
-Contains a text summary of the final dataset sizes, model configurations, experimental results, and generalization findings.
+### LinearSVC
 
-## Confusion Matrices
+- `linearsvc_three_seed_results.csv`  
+  Contains the individual LinearSVC results for seeds 42, 7, and 21.
 
-The following figures contain the confusion matrices for the four experiments:
+- `linearsvc_three_seed_mean_std.csv`  
+  Contains the mean and sample standard deviation across the three seeds.
 
-- `svm_traditional_confusion_matrix.png`
-- `svm_ephishllm_confusion_matrix.png`
-- `distilbert_traditional_confusion_matrix.png`
-- `distilbert_ephishllm_confusion_matrix.png`
+### Final Model Comparison
 
-## SVM Error Analysis
+- `final_model_comparison.csv`  
+  Contains the final comparison of LinearSVC and DistilBERT on both the traditional test set and E-PhishLLM.
 
-`svm_ephish_false_positives.csv`
+## Final Performance
 
-Contains legitimate E-PhishLLM emails incorrectly classified as phishing by LinearSVC.
+| Model | Dataset | Accuracy | Precision | Recall | F1 |
+|---|---|---:|---:|---:|---:|
+| LinearSVC | Traditional Test | 0.991244 ± 0.000000 | 0.989333 ± 0.000000 | 0.993185 ± 0.000000 | 0.991255 ± 0.000000 |
+| LinearSVC | E-PhishLLM | 0.739176 ± 0.000000 | 0.808230 ± 0.000000 | 0.655103 ± 0.000000 | 0.723655 ± 0.000000 |
+| DistilBERT | Traditional Test | 0.993190 ± 0.000257 | 0.994727 ± 0.000671 | 0.991628 ± 0.000515 | 0.993175 ± 0.000257 |
+| DistilBERT | E-PhishLLM | 0.669478 ± 0.008463 | 0.814072 ± 0.116267 | 0.514287 ± 0.167748 | 0.609006 ± 0.074251 |
 
-`svm_ephish_false_negatives.csv`
+## Cross-Dataset Overlap Analysis
 
-Contains phishing E-PhishLLM emails incorrectly classified as legitimate by LinearSVC.
+- `exact_cross_dataset_overlap.csv`  
+  Contains the exact-duplicate overlap analysis between the traditional dataset and E-PhishLLM.
 
-`svm_representative_false_positives.csv`
+- `near_duplicate_cross_dataset_summary.csv`  
+  Contains the near-duplicate similarity analysis.
 
-Contains selected representative false-positive examples used for qualitative error analysis.
+No exact overlapping normalized emails were detected.
 
-`svm_representative_false_negatives.csv`
+No cross-dataset pairs reached cosine similarity thresholds of 0.90, 0.95, or 0.99 under the TF-IDF character n-gram procedure used in this study.
 
-Contains selected representative false-negative examples used for qualitative error analysis.
+## DistilBERT Error Analysis
+
+The systematic error analysis was performed using the Seed 21 DistilBERT evaluation on E-PhishLLM.
+
+Seed 21 produced:
+
+- False positives: 378
+- False negatives: 3,536
+- Total errors: 3,914
+
+Supporting files:
+
+- `clean_error_category_summary.csv`  
+  Contains the heuristic error-category analysis.
+
+- `manual_error_review_sample.csv`  
+  Contains a reproducible sample of 10 false positives and 10 false negatives used for manual review.
+
+The error categories include credential requests, secure links/URLs, attachments, collaboration requests, software updates, urgency, and impersonation.
+
+The categories are overlapping heuristic indicators and should not be interpreted as mutually exclusive classes.
 
 ## Main Finding
 
-Both models achieved greater than 99% accuracy on the traditional test set but showed substantially lower performance on E-PhishLLM.
+Both LinearSVC and DistilBERT achieved more than 99% accuracy on the traditional phishing test set.
 
-TF-IDF + LinearSVC achieved 73.92% accuracy and a phishing F1-score of 0.7237 on E-PhishLLM.
+However, both models experienced substantial performance decreases when evaluated on E-PhishLLM without retraining.
 
-DistilBERT achieved 64.37% accuracy and a phishing F1-score of 0.5618 on E-PhishLLM.
+DistilBERT achieved slightly higher in-domain accuracy and F1, while LinearSVC maintained stronger cross-domain accuracy, recall, and F1 in this experimental setup.
 
-In this experiment, DistilBERT performed slightly better on the traditional test set, while TF-IDF + LinearSVC showed stronger cross-domain generalization to the AI-generated phishing dataset.
+The results demonstrate that strong performance on traditional phishing data does not necessarily guarantee equivalent performance on an external AI-generated phishing dataset.
 
-## Note
+## Reproducibility
 
-The DistilBERT confusion matrices and final verified metrics are included in this folder. Detailed DistilBERT false-positive and false-negative CSV files are not included in the current repository.
+The main experimental notebook is located in the root of the repository:
+
+`AI_Phishing_Detection_Experiments.ipynb`
+
+Large datasets and trained DistilBERT checkpoints are not stored in this repository.
